@@ -1,7 +1,5 @@
-<?php
-include 'vue/vue_entete2.php';
+<!DOCTYPE html>
 
-?>
 
 <html>
   <head>
@@ -15,7 +13,7 @@ include 'vue/vue_entete2.php';
 <h3 class='titrestage'>Site AMAP ChampsBio en methode MVC :</h3>
             
            <div class="row">
-                  <img src='vue/imgs/amapbio.png' >
+                  <img src='imgs/amapbio.png' >
               
             </div>
 <div class="row">
@@ -61,10 +59,37 @@ Travailler en mode projet
       </div>
 </div>
 </section>
-<?php 
-    include "vue/vue_footer.php";
- ?>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="vue/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
+
+<footer class="footer">
+        <div class="footer__content">
+            <div class="footer__section">
+                <h3 class="footer__title1">Portefolio de Nora Boudarbala.</h3>
+                
+            </div>
+            <div class="footer__section">
+                
+                <ul class="navifooter">
+                    <a href="#" class="fa fa-github"></a>&emsp;  
+                    
+<a href="#" class="fa fa-linkedin"></a>
+               
+                    <li><a href="" class="footer__link">+33 6 33 53 94 07</a></li>
+                    <li><a href="" class="footer__link">nora.boudarbala-benkhayi@stcharles-stecroix.org</a></li>
+
+</footer>
+
+
+
+
+</html>
 
 </body>
 </html>
